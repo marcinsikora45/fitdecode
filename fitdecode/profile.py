@@ -4371,6 +4371,9 @@ FIELD_TYPES = {
 }
 
 
+FIELD_TYPE_TIMESTAMP = Field(name='timestamp', type=FIELD_TYPES['date_time'], def_num=253, units='s')
+
+
 MESSAGE_TYPES = {
     # **************************** Common Messages *****************************
     0: MessageType(  # Must be first message in file.
